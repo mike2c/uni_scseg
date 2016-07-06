@@ -1,0 +1,4 @@
+buscar egresados para pasantias
+ver perfiles de egresados
+enviar curriculums a empresas
+tener registro de curriculums de egresados

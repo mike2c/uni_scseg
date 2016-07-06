@@ -1,0 +1,150 @@
+body{
+	//background-color: #e9ebee;
+	//background-color: white;
+	font-family: sans-serif,'Source Sans Pro';
+	background-image: url("../img/edificio-uni.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+header{
+	background-color: white;
+	border-bottom: 1px solid #e3e3e3;
+}
+header img{
+	margin-top: 14px;
+	//margin-bottom: 10px;
+	float: left;
+	height: 50px;
+	margin-right: 10px;
+}
+header h3{
+	color: #636563;
+	margin-top: 15px;
+	margin-bottom: 3px;
+}
+header h5{
+	color:#636563;
+	margin-top: 0px;
+	font-weight:bolder;
+}
+.top-menu{
+	list-style: none;
+}
+.top-menu ul{
+	list-style: none;
+	padding: 0px;
+}
+.top-menu > li{
+	float:left;
+	margin-right:2%;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: #888888;
+	border-bottom: 3px solid white;
+}
+.top-menu > li:hover{
+	border-bottom: 3px solid #2C93D5;
+}
+.top-menu li.active{
+	border-bottom: 3px solid #2C93D5;
+	color: #2C93D5;
+}
+.top-menu li > a{
+	display: block;
+	text-align:center;
+	font-size: 12px;
+	font-weight: bolder;
+	color: inherit;
+	min-width: 70px;
+	height: inherit;
+	text-decoration: none!important;
+}
+.top-menu li a:hover{
+	color: #2C93D5;
+}
+.top-menu li:hover > div{
+	display:block;
+}
+.top-menu li div{
+	z-index: 1;
+	display: none;
+	overflow: auto;
+	position: absolute;
+	background-color: rgba(255,255,255,1.0);
+	border: 1px solid #e0e0e0;
+	overflow: all;	
+	padding: 20px 20px;
+	min-width: 300px;
+}
+.top-menu li div ul{
+	float: left;
+	height: 100%;
+	display: block;
+	margin-left:20px;
+	margin-right: 30px;
+
+}
+.top-menu li ul li{
+	height: 25px;
+}
+.top-menu li ul li a{
+	font-weight: normal;
+	text-align: left;
+	padding: 0px;
+	height: inherit;
+	font-size: 14px;
+	line-height: 25px
+}
+footer{
+	color: #999;
+	opacity: 0.8;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+footer .hidden-content{
+	background-color: #1f1f1f;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+footer:hover{
+	opacity: 1.0;
+}
+#content{
+	background-color: white;
+	padding: 20px 0px;
+}
+#btnFooter{
+	background-color: #1f1f1f;
+	color: white;
+	text-decoration: none!important;
+	font-size: 18px;
+	outline: none;
+	border: none;
+	height: 30px;
+	width: 40px;
+}
+#btnFooter:hover{
+	color: #2C93D5;
+}
+.hidden-content{
+	display: none;
+}
+.contact-form{
+	padding: 2px 30px;
+	background-color: #ecf0f5;
+}
+.map{
+	display: block;
+	border: 3px solid lightgray;
+	box-shadow: 1px 1px solid black;
+}
+.login{
+	background-color:white;
+	padding: 10px 45px;
+	box-shadow: 1px 1px 3px black; 
+}
+.form-control{
+	border-radius: 1px;
+}
